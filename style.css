@@ -1,6 +1,6 @@
 body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
-  margin: 20;
+  margin: 0;
   padding: 40px;
   background-color: #0b2034;
   color: #CFCFCF;
@@ -10,6 +10,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;  /* centraliza horizontalmente */
+  align-items: center;      /* centraliza verticalmente */
+  height: 100vh;            /* ocupa a altura total da tela */
+  margin: 0;
 }
 
 header {
